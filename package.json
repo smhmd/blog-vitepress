@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "0.1.0",
+  "description": "My blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx vitepress",
+    "build": "npx vitepress build"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "smhmd <contact.simohamed@gmail.com> (https://simohamed.tech/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "7.10.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-plugin-vue": "7.0.0-beta.4",
+    "prettier": "2.1.2",
+    "vitepress": "0.6.0"
+  },
+  "dependencies": {
+    "tailwindcss": "1.8.10"
+  }
+}
